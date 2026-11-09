@@ -1,0 +1,31 @@
+[*]
+[*] GTKWave Analyzer v3.3.126 (w)1999-2026 BSI
+[*] Sun Nov  8 06:46:41 2026
+[*]
+[dumpfile] "/home/t-r-jyothirmay-dikshith/Downloads/vlsi-task2-sequential-rtl/sim/tb_param.vcd"
+[dumpfile_mtime] "Sun Nov  8 05:31:15 2026"
+[dumpfile_size] 48777
+[savefile] "/home/t-r-jyothirmay-dikshith/Downloads/vlsi-task2-sequential-rtl/sim/hh.gtkw"
+[timestart] 2600000
+[size] 1000 600
+[pos] 25 22
+*-15.314033 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 278
+[signals_width] 94
+[sst_expanded] 1
+[sst_vpaned_height] 157
+@28
+tb_param.c3[2:0]
+@22
+tb_param.c10[3:0]
+@28
+tb_param.clk
+@22
+tb_param.r4[3:0]
+tb_param.r8[7:0]
+tb_param.s4[3:0]
+tb_param.s8[7:0]
+@28
+tb_param.sin
+[pattern_trace] 1
+[pattern_trace] 0

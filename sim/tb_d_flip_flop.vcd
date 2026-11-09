@@ -1,0 +1,128 @@
+$date
+	Sun Nov  8 11:01:15 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_d_flip_flop $end
+$var wire 1 ! q_sync $end
+$var wire 1 " q_async $end
+$var reg 1 # clk $end
+$var reg 1 $ d $end
+$var reg 1 % reset $end
+$var integer 32 & errors [31:0] $end
+$scope module u_async $end
+$var wire 1 # clk $end
+$var wire 1 $ d $end
+$var wire 1 % reset $end
+$var parameter 32 ' ASYNC_RESET $end
+$var reg 1 " q $end
+$scope begin g_async $end
+$upscope $end
+$upscope $end
+$scope module u_sync $end
+$var wire 1 # clk $end
+$var wire 1 $ d $end
+$var wire 1 % reset $end
+$var parameter 32 ( ASYNC_RESET $end
+$var reg 1 ! q $end
+$scope begin g_sync $end
+$upscope $end
+$upscope $end
+$scope task chk $end
+$var reg 1 ) exp $end
+$var reg 1 * got $end
+$var reg 96 + tag [96:1] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b0 (
+b1 '
+$end
+#0
+$dumpvars
+bx +
+x*
+x)
+b0 &
+0%
+0$
+0#
+x"
+x!
+$end
+#2000
+0"
+1%
+#3000
+b11000010111001101111001011011100110001100100000011100100111001101110100 +
+0)
+0*
+#5000
+0!
+1#
+#6000
+1$
+0%
+b111001101111001011011100110001100100000011100100111001101110100 +
+#10000
+0#
+#15000
+1"
+1!
+1#
+#16000
+0$
+b110110001101111011000010110010000100000001100010010000001110011 +
+1)
+1*
+#20000
+0#
+#25000
+0"
+0!
+1#
+#26000
+1$
+b110110001101111011000010110010000100000001100000010000001110011 +
+0)
+0*
+#30000
+0#
+#35000
+1"
+1!
+1#
+#37000
+0"
+1%
+#38000
+1)
+1*
+b11100110111100101101110011000110010000001101000011011110110110001100100 +
+#40000
+0#
+#45000
+0!
+1#
+#46000
+0%
+b111001101111001011011100110001100100000011000110110110001110010 +
+0)
+0*
+#50000
+0#
+#55000
+1"
+1!
+1#
+#60000
+0#
+#65000
+1#
+#66000

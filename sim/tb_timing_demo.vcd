@@ -1,0 +1,86 @@
+$date
+	Sun Nov  8 11:01:16 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module tb_timing_demo $end
+$var wire 1 ! q $end
+$var reg 1 " clk $end
+$var reg 1 # d $end
+$var integer 32 $ errors [31:0] $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 1 # d $end
+$var real 1 % T_HOLD $end
+$var real 1 & T_SETUP $end
+$var reg 1 ! q $end
+$var integer 32 ' hold_count [31:0] $end
+$var integer 32 ( setup_count [31:0] $end
+$var real 1 ) t_clk_edge $end
+$var real 1 * t_d_change $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+r2 &
+r1 %
+$end
+#0
+$dumpvars
+r0 *
+r-1000 )
+b0 (
+b0 '
+b0 $
+0#
+0"
+0!
+$end
+#50
+r5 )
+1"
+#100
+0"
+#120
+r12 *
+1#
+#150
+1!
+r15 )
+1"
+#200
+0"
+#240
+r24 *
+0#
+#250
+x!
+b1 (
+r25 )
+1"
+#300
+0"
+#320
+r32 *
+1#
+#350
+1!
+r35 )
+1"
+#355
+x!
+b1 '
+r35.5 *
+0#
+#400
+0"
+#450
+0!
+r45 )
+1"
+#460

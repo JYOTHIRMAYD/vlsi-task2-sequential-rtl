@@ -1,0 +1,192 @@
+$date
+	Sun Nov  8 11:01:15 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_register $end
+$var wire 8 ! q_s [7:0] $end
+$var wire 8 " q_a [7:0] $end
+$var reg 1 # clk $end
+$var reg 8 $ d [7:0] $end
+$var reg 1 % en $end
+$var reg 1 & reset $end
+$var integer 32 ' errors [31:0] $end
+$scope module u_a $end
+$var wire 1 # clk $end
+$var wire 8 ( d [7:0] $end
+$var wire 1 % en $end
+$var wire 1 & reset $end
+$var wire 8 ) q [7:0] $end
+$var parameter 32 * ASYNC_RESET $end
+$scope module u_reg $end
+$var wire 1 # clk $end
+$var wire 8 + d [7:0] $end
+$var wire 1 % en $end
+$var wire 1 & reset $end
+$var parameter 32 , ASYNC_RESET $end
+$var parameter 32 - N $end
+$var reg 8 . q [7:0] $end
+$scope begin g_async $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module u_s $end
+$var wire 1 # clk $end
+$var wire 8 / d [7:0] $end
+$var wire 1 % en $end
+$var wire 1 & reset $end
+$var wire 8 0 q [7:0] $end
+$var parameter 32 1 ASYNC_RESET $end
+$scope module u_reg $end
+$var wire 1 # clk $end
+$var wire 8 2 d [7:0] $end
+$var wire 1 % en $end
+$var wire 1 & reset $end
+$var parameter 32 3 ASYNC_RESET $end
+$var parameter 32 4 N $end
+$var reg 8 5 q [7:0] $end
+$scope begin g_sync $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope task chk $end
+$var reg 8 6 exp [7:0] $end
+$var reg 8 7 got [7:0] $end
+$var reg 96 8 tag [96:1] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 4
+b0 3
+b0 1
+b1000 -
+b1 ,
+b1 *
+$end
+#0
+$dumpvars
+bx 8
+bx 7
+bx 6
+bx 5
+b0 2
+bx 0
+b0 /
+bx .
+b0 +
+bx )
+b0 (
+b0 '
+0&
+0%
+b0 $
+0#
+bx "
+bx !
+$end
+#2000
+b0 "
+b0 )
+b0 .
+1&
+#3000
+b11000010111001101111001011011100110001100100000011100100111001101110100 8
+b0 6
+b0 7
+#5000
+b0 !
+b0 0
+b0 5
+1#
+#6000
+b10100101 $
+b10100101 (
+b10100101 +
+b10100101 /
+b10100101 2
+1%
+0&
+b1110011001000000111001001100101011100110110010101110100 8
+#10000
+0#
+#15000
+b10100101 "
+b10100101 )
+b10100101 .
+b10100101 !
+b10100101 0
+b10100101 5
+1#
+#16000
+b111100 $
+b111100 (
+b111100 +
+b111100 /
+b111100 2
+0%
+b11100110010000001101100011011110110000101100100 8
+b10100101 6
+b10100101 7
+#20000
+0#
+#25000
+1#
+#26000
+1%
+b11100110010000001101000011011110110110001100100 8
+#30000
+0#
+#35000
+b111100 "
+b111100 )
+b111100 .
+b111100 !
+b111100 0
+b111100 5
+1#
+#36000
+b1110011001000000110110001101111011000010110010000110010 8
+b111100 6
+b111100 7
+#37000
+b0 "
+b0 )
+b0 .
+1&
+#38000
+b1110011001000000111011101100001011010010111010001110011 8
+b111100 6
+b111100 7
+#40000
+0#
+#45000
+b0 !
+b0 0
+b0 5
+1#
+#46000
+0&
+b11100110010000001110011011110010110111001100011 8
+b0 6
+b0 7
+#50000
+0#
+#55000
+b111100 "
+b111100 )
+b111100 .
+b111100 !
+b111100 0
+b111100 5
+1#
+#60000
+0#
+#65000
+1#
+#66000
